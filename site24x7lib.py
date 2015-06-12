@@ -186,7 +186,7 @@ if __name__ == '__main__':
         log.mask( 'ALL' )
         log.stderr( 1 )
 
-        site = Site24x7('17dd7fecf3944ae7644d21c33dcfe66d')
+        site = Site24x7('AUTH_TOKEN')
 
         #pprint.pprint( site.request('/monitors') )
         #pprint.pprint( site.request('/reports/log_reports/136657000000045544?date=2015-05-31') )
